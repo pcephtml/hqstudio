@@ -394,6 +394,18 @@
 #wowslider-container0 .ws-title span{
 	text-transform: uppercase;	
 	font-size: 2em;
+}#wowslider-container0 a.ws_next,
+#wowslider-container0 a.ws_prev,
+#wowslider-container0 .ws_playpause {
+	display:none;
+}
+
+* html #wowslider-container0 a.ws_next,* html #wowslider-container0 a.ws_prev{display:block}
+
+#wowslider-container0:hover a.ws_next,
+#wowslider-container0:hover a.ws_prev,
+#wowslider-container0:hover .ws_playpause {
+	display:block
 }#wowslider-container0 .ws_images > ul{
 	animation: wsBasic 12s infinite;
 	-moz-animation: wsBasic 12s infinite;
